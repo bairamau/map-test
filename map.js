@@ -43,19 +43,19 @@ class Map {
     }
 
     stateAbbreviations() {
-        let unique = [...new Set(this.cities.map(city => city.state))];
-        return unique.join(' ');
+        let uniqueStates = [...new Set(this.cities.map(city => city.state))];
+        return uniqueStates.join(' ');
 
     }
 
 }
 
 
-let map = new Map(list_of_cities);
-console.log(map.closestTo(10, 10));
-console.log(map.closestTo(-50, -50));
-console.log(map.stateAbbreviations());
-console.log(map.mostFar('N'));
-console.log(map.mostFar('S'));
-console.log(map.mostFar('E'));
-console.log(map.mostFar('W'));
+// let map = new Map(list_of_cities);
+// console.log(map.closestTo(10, 10));
+// console.log(map.closestTo(-50, -50));
+// console.log(map.stateAbbreviations());
+// console.log(map.mostFar('N'));
+// console.log(map.mostFar('S'));
+// console.log(map.mostFar('E'));
+// console.log(map.mostFar('W'));
