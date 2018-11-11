@@ -1,3 +1,4 @@
+'use strict';
 let list_of_cities = [
     ["Nashville, TN", 36.17, -86.78],
     ["New York, NY", 40.71, -74.00],
@@ -52,10 +53,10 @@ class Map {
 
 
 // let map = new Map(list_of_cities);
-// console.log(map.closestTo(10, 10));
-// console.log(map.closestTo(-50, -50));
-// console.log(map.stateAbbreviations());
-// console.log(map.mostFar('N'));
-// console.log(map.mostFar('S'));
-// console.log(map.mostFar('E'));
-// console.log(map.mostFar('W'));
+// console.log('closest:', map.closestTo(10, 10));
+// console.log('closest:', map.closestTo(-50, -50));
+// console.log('state abbreviations:', map.stateAbbreviations());
+// console.log('northernmost:', map.mostFar('N'));
+// console.log('southernmost:', map.mostFar('S'));
+// console.log('easternmost:', map.mostFar('E'));
+// console.log('westernmost:', map.mostFar('W'));
